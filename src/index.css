@@ -1,13 +1,79 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+.dropbtn {
+  background-color: transparent;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.cust-dropdown {
+  position: relative;
+  display: inline-block;
 }
+
+.cust-dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the cust-dropdown */
+.cust-dropdown-content a {
+  color: black;
+  text-decoration: none;
+  display: block;
+}
+
+.cust-dropdown-content a:hover {background-color: #ddd;}
+
+.cust-dropdown:hover .cust-dropdown-content {display: block;}
+
+.cust-dropdown:hover .dropbtn {background-color: transparent}
+
+.px-4 {
+  padding: 0 4rem!important;
+}
+
+.max-ping {
+  background-color: rgba(253, 51, 51, 0.534);;
+  color: #fff;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.label-method {
+  font-size: 22px;
+}
+
+.cust-tabs {
+  display: flex;  
+  align-items: center;
+  border-radius: 10px;
+  background: #ffecece8!important;
+  cursor: pointer;
+
+}
+
+.cust-tab {
+  margin: 0 0 0 10px;
+  font-weight: 600;
+  transition: all ease-in-out .4s;
+  outline: none;
+}
+
+.cust-tab:hover {
+  color: rgb(240, 23, 23);
+}
+
+.cust-tab-selected {
+  color: rgb(240, 23, 23);
+}
+
+/* .cust-tab-panel {
+  margin-left: 10px!important;
+} */

@@ -1,0 +1,1 @@
+export const EXPRESSION =  (i) => (Math.cos(3.14 * i) / (1 + i))
