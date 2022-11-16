@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Kirill-frontend/Labolatory-works/tree/gpage/static/css/main.032ee786.css",
+    "main.js": "/Kirill-frontend/Labolatory-works/tree/gpage/static/js/main.2deadd55.js",
+    "index.html": "/Kirill-frontend/Labolatory-works/tree/gpage/index.html",
+    "main.032ee786.css.map": "/Kirill-frontend/Labolatory-works/tree/gpage/static/css/main.032ee786.css.map",
+    "main.2deadd55.js.map": "/Kirill-frontend/Labolatory-works/tree/gpage/static/js/main.2deadd55.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.032ee786.css",
+    "static/js/main.2deadd55.js"
+  ]
+}
