@@ -12,10 +12,11 @@ import {
 } from "chart.js";
 import { Chart } from "react-chartjs-2";
 import { Tab, Tabs, TabList, TabPanel } from "react-tabs";
-import { expressionFunc, labels, methodItem } from "../functions/chartUtils";
-import { dichotomie } from "./../functions/chartUtils";
+import { labels, expressionFunc } from "../functions/chartUtils";
+import {methodItem, dichotomie} from '../functions/lab01'
 import { useState } from "react";
 import { useEffect } from "react";
+import { EXPRESSION } from "../utils/consts";
 
 ChartJS.register(
   CategoryScale,
@@ -42,6 +43,7 @@ export const Lab01 = () => {
   const sigmaVal = range * 0.001;
   const maxIt = methodItem()[0];
   useEffect(() => {
+    
     setDich(dichotomie(0, 1, sigmaVal));
   }, [range, setDich, sigmaVal]);
 
@@ -54,7 +56,7 @@ export const Lab01 = () => {
         borderColor: "rgb(255, 99, 132)",
         borderWidth: 2,
         fill: false,
-        data: expressionFunc(),
+        data: expressionFunc(EXPRESSION),
       },
       {
         type: "bubble",

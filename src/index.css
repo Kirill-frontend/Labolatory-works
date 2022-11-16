@@ -37,6 +37,15 @@
   padding: 0 4rem!important;
 }
 
+.py-4 {
+  padding: 4rem 0!important;
+}
+
+
+.ml-4 {
+  margin: 0 0 0 2rem;
+}
+
 .max-ping {
   background-color: rgba(253, 51, 51, 0.534);;
   color: #fff;
@@ -73,6 +82,29 @@
 .cust-tab-selected {
   color: rgb(240, 23, 23);
 }
+
+.flex {
+  display: flex;
+  flex-direction: column;
+}
+
+.align-center {
+  display: flex;
+  align-items: center;
+}
+
+.column-center {
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: center;
+  justify-content: center;
+}
+
+.home-link {
+  text-decoration: none;
+  color: #fff;
+}
+
 
 /* .cust-tab-panel {
   margin-left: 10px!important;

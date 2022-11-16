@@ -8,6 +8,9 @@ export const Dropdown = () => {
       <button className="dropbtn">Лабораторні</button>
       <div className="cust-dropdown-content">
         <Link to="/lab01">Лаб. робота №1</Link>
+        <Link to="/lab02">Лаб. робота №2</Link>
+        <Link to="/lab03">Лаб. робота №3</Link>
+        <Link to="/lab04">Лаб. робота №4</Link>
       </div>
     </div>
   );
