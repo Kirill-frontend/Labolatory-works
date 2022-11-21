@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/static/css/main.032ee786.css",
-    "main.js": "/static/js/main.15e64b87.js",
-    "index.html": "/index.html",
-    "main.032ee786.css.map": "/static/css/main.032ee786.css.map",
-    "main.15e64b87.js.map": "/static/js/main.15e64b87.js.map"
+    "main.css": "/lab-works-gh-page/static/css/main.032ee786.css",
+    "main.js": "/lab-works-gh-page/static/js/main.c7a6f5eb.js",
+    "index.html": "/lab-works-gh-page/index.html",
+    "main.032ee786.css.map": "/lab-works-gh-page/static/css/main.032ee786.css.map",
+    "main.c7a6f5eb.js.map": "/lab-works-gh-page/static/js/main.c7a6f5eb.js.map"
   },
   "entrypoints": [
     "static/css/main.032ee786.css",
-    "static/js/main.15e64b87.js"
+    "static/js/main.c7a6f5eb.js"
   ]
 }
